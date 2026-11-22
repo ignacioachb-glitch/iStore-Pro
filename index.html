@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>iStore Pro</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <!-- LOGO -->
+        <a href="#" class="header__logo">
+
+            <svg class="header__logo-icon" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="5" width="18" height="17" rx="3"/>
+                <path d="M8 5V3h8v2"/>
+                <path d="M7 10c0 3 2 5 5 5s5-2 5-5"/>
+            </svg>
+
+            <span>iStore Pro</span>
+
+        </a>
+
+        <!-- NAVEGACION -->
+        <nav class="nav">
+
+            <a href="#" class="nav__link nav__link--active">Mac</a>
+            <a href="#" class="nav__link">iPad</a>
+            <a href="#" class="nav__link">iPhone</a>
+            <a href="#" class="nav__link">Watch</a>
+            <a href="#" class="nav__link">Airpods</a>
+            <a href="#" class="nav__link">Hogar</a>
+            <a href="#" class="nav__link">Entretenimiento</a>
+            <a href="#" class="nav__link">Soporte</a>
+            <a href="#" class="nav__link">Donde comprar</a>
+
+        </nav>
+
+        <!-- ACCIONES -->
+        <div class="header__actions">
+
+            <a href="#" class="header__action" aria-label="Buscar">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7"/>
+                    <path d="m16 16 5 5"/>
+                </svg>
+            </a>
+
+            <a href="#" class="header__action" aria-label="Favoritos">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/>
+                </svg>
+            </a>
+
+            <a href="#" class="header__action" aria-label="Carrito">
+                <svg viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="18" rx="3"/>
+                    <path d="M8 4V3a4 4 0 0 1 8 0v1"/>
+                    <path d="M8 10c0 2 1.5 3 4 3s4-1 4-3"/>
+                </svg>
+            </a>
+
+            <a href="#" class="header__action" aria-label="Usuario">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="7" r="4"/>
+                    <path d="M5 21v-2a7 7 0 0 1 14 0v2"/>
+                </svg>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main class="main">
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="hero">
+
+            <div class="hero__content">
+
+                <span class="hero__badge">
+                    ✨ Potencia sin límites
+                </span>
+
+                <h1 class="hero__title">
+                    Mac. Hazlo todo.
+                    <br>
+                    Como nunca.
+                </h1>
+
+                <p class="hero__description">
+                    Rendimiento extraordinario, autonomía para todo
+                    el día y un diseño que convierte cada tarea
+                    en algo natural.
+                </p>
+
+                <a href="#productos" class="hero__button">
+                    Ver la colección
+                    <span>→</span>
+                </a>
+
+            </div>
+
+            <div class="hero__image-container">
+
+                <img
+                    src="assets/macbook-hero.jpeg"
+                    alt="MacBook de Apple"
+                    class="hero__image"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- CARACTERISTICAS -->
+        <section class="benefits">
+
+            <div class="benefits__item">
+                <span class="benefits__check">✓</span>
+                <p>Chip Apple Silicon</p>
+            </div>
+
+            <div class="benefits__item">
+                <span class="benefits__check">✓</span>
+                <p>Hasta 24 horas de batería</p>
+            </div>
+
+            <div class="benefits__item">
+                <span class="benefits__check">✓</span>
+                <p>Apple Intelligence</p>
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS DESTACADOS -->
+        <section class="featured" id="productos">
+
+            <!-- ENCABEZADO DE PRODUCTOS -->
+            <div class="featured__header">
+
+                <div class="featured__heading">
+
+                    <span class="featured__subtitle">
+                        ELIGE EL TUYO
+                    </span>
+
+                    <h2 class="featured__title">
+                        Productos destacados
+                    </h2>
+
+                </div>
+
+                <p class="featured__description">
+                    Compra con envío gratis, asesoría especializada
+                    y garantía oficial.
+                </p>
+
+            </div>
+
+
+            <!-- TARJETAS DE PRODUCTOS -->
+            <div class="featured__grid">
+
+                <!-- PRODUCTO 1 -->
+                <article class="product-card">
+
+                    <div class="product-card__image-container">
+
+                        <span class="product-card__badge">
+                            Más popular
+                        </span>
+
+                        <img
+                            src="assets/producto-macbook.jpg"
+                            alt="MacBook"
+                            class="product-card__image"
+                        >
+
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            MacBook
+                        </h3>
+
+                        <p class="product-card__description">
+                            Rendimiento y potencia para todo.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 2 -->
+                <article class="product-card">
+
+                    <div class="product-card__image-container">
+
+                        <img
+                            src="assets/producto-ipad.jpg"
+                            alt="iPad"
+                            class="product-card__image"
+                        >
+
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            iPad
+                        </h3>
+
+                        <p class="product-card__description">
+                            Creatividad y productividad.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 3 -->
+                <article class="product-card">
+
+                    <div class="product-card__image-container">
+
+                        <img
+                            src="assets/producto-iphone.jpg"
+                            alt="iPhone"
+                            class="product-card__image"
+                        >
+
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            iPhone
+                        </h3>
+
+                        <p class="product-card__description">
+                            Tecnología en tus manos.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
