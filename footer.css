@@ -1,0 +1,167 @@
+
+/* ==============================
+   FOOTER
+============================== */
+
+.footer {
+    background: #111827;
+    color: #ffffff;
+    padding: 65px 8% 25px;
+}
+
+/* Contenedor principal */
+
+.footer__container {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+/* Marca */
+
+.footer__brand {
+    max-width: 300px;
+}
+
+.footer__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer__logo-icon {
+    color: #3978ff;
+    font-size: 27px;
+}
+
+.footer__logo-text {
+    color: #ffffff;
+}
+
+.footer__description {
+    color: #9ca3af;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* Redes sociales */
+
+.footer__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer__social-link {
+    color: #9ca3af;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer__social-link:hover {
+    color: #3978ff;
+}
+
+/* Columnas */
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    color: #ffffff;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__list-item {
+    margin: 0;
+}
+
+.footer__link {
+    color: #9ca3af;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #3978ff;
+}
+
+/* Parte inferior */
+
+.footer__bottom {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-top: 1px solid #374151;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__copyright,
+.footer__country {
+    color: #9ca3af;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 900px) {
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .footer {
+        padding: 45px 6% 20px;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer__brand {
+        max-width: 100%;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+}
